@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>PortfolioWeb</title>
+    <!--estilos mas personales-->
+    <link href="css/main.css" rel="stylesheet" />
+    <!--Bootstrap CSS-->
+    <link href="css/estilos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body >
+
+    <div class="img_fondo">
+    <!--PAGINA WEB-->
+
+    <!--NavBar-->
+    <header>
+      <div class="header_superior">
+        <div class="logo">
+          <img src="img/APLogo-color.png" alt="" />
+        </div>
+        <div class="icon_gral">
+          <div class="login">
+            <span class="login_val"><i class="bi bi-person-fill"></i></span>
+          </div>
+          <div class="container_icon">
+            <span class="social_icon"><i class="bi bi-whatsapp"></i></span>
+            <span class="social_icon"><i class="bi bi-linkedin"></i></span>
+            <span class="social_icon"><i class="bi bi-envelope"></i></span>
+            <span class="social_icon"><i class="bi bi-github"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container_menu">
+        <div class="menu">
+          <input type="checkbox" id="check_menu" />
+          <label id="label_menu" for="check_menu">
+            <i class="bi bi-list icon_menu"></i>
+          </label>
+          <nav>
+            <ul>
+              <li>
+                <a href="#" id="selected">
+                  <i
+                    class="bi bi-house-door"
+                    style="font-size: 1.3rem; color: #f73072"
+                  ></i
+                ></a>
+              </li>
+              <li><a href="#">VALERIA SAEZ</a></li>
+              <li>
+                <a href="#">EDUCACIÓN</a>
+                <ul>
+                  <li><a href="#">FORMACIÓN</a></li>
+                  <li><a href="#">CONOCIMIENTOS</a></li>
+                </ul>
+              </li>
+              <li><a href="#">TRABAJOS</a></li>
+              <li><a href="#">CONTACTO</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!--Banners-->
+    <div class="container-all">
+      <input type="radio" id="1" name="image-slide" hidden />
+      <input type="radio" id="2" name="image-slide" hidden />
+      <input type="radio" id="3" name="image-slide" hidden />
+
+      <div class="slide">
+        <div class="item-slide">
+          <img src="img/banner_1_Mesa de trabajo 1.png" />
+        </div>
+
+        <div class="item-slide">
+          <img src="img/banner_2_Mesa de trabajo 1.png" />
+        </div>
+
+        <div class="item-slide">
+          <img src="img/banner_3_Mesa de trabajo 1.png" />
+        </div>
+      </div>
+
+      <div class="pagination">
+        <label class="pagination-item" for="1">
+          <img src="img/banner_1_Mesa de trabajo 1.png" />
+        </label>
+
+        <label class="pagination-item" for="2">
+          <img src="img/banner_2_Mesa de trabajo 1.png" />
+        </label>
+
+        <label class="pagination-item" for="3">
+          <img src="img/banner_3_Mesa de trabajo 1.png" />
+        </label>
+      </div>
+    </div>
+
+    <!--ValeriaSaez-->
+    <main>
+      <article class="valeria_cover">
+        <div class="cover">
+          <div class="text_informacion_cover">
+            <h4>Hola! Soy,</h4>
+            <h2>Valeria Saez...</h2>
+            <p>
+              Una estudiante, apadionada por el Diseño y con interés por el Diseño del
+              Desarrollo web. Me encuentro constantemente en la busqueda de adquirir
+              nuevos conocimientos y abarcar nuevas áreas en el mundo IT. Quiero
+              crecer profesionalmente y así poder aplicar mis conocimientos en
+              proyectos de Desarrollo Web Responsive.
+            </p>
+            <div class="button_cover">
+              <input
+                type="button"
+                class="btn_readmore_cover"
+                value="Leer más"
+              />
+              <input
+                type="button"
+                class="btn_cv_cover"
+                value="Curriculum Vitae"
+              />
+            </div>
+          </div>
+          <div class="img_cover">
+            <img src="img/img_Valeria.png" alt="" />
+          </div>
+        </div>
+      </article>
+
+      <!--Formacion-->
+
+      <article class="bck_cards">
+        <div class="circulo_img">
+          <img src="img/formacion.png" alt="">
+        </div>
+        <div class="titulos"> <h2>Formación</h2></div>
+        <div class="container_card">
+          <div class="card_father">
+            <div class="card">
+              <div
+                class="card_front"
+                style="background-image: url(img/utncolor-01.png)"
+              >
+                <div class="bg"></div>
+                <div class="body_card_front">
+                  <h1>1999-2002</h1>
+                  <p>
+                    Universidad Tecnológica Nacional (U.T.N) - Mendoza -
+                    Argentina
+                  </p>
+                </div>
+              </div>
+              <div class="card_back">
+                <div class="body_card_back">
+                  <p>
+                    Ingeniería en Sistemas de Información. Tercer año
+                    Incompleto.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card_father">
+            <div class="card">
+              <div
+                class="card_front"
+                style="background-image: url(img/UBdisegncolor-01.png)"
+              >
+                <div class="bg"></div>
+                <div class="body_card_front">
+                  <h1>2003-2006</h1></h1>
+                  <p>
+                    Instituto Manuel Belgrano (I.M.B) - Mendoza -
+                    Argentina
+                  </p>
+                </div>
+              </div>
+              <div class="card_back">
+                <div class="body_card_back">
+                  <p>
+                    Técnico Superior en Diseño Gráfico y Publicitario. Cursado
+              Completo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card_father">
+            <div class="card">
+              <div
+                class="card_front"
+                style="background-image: url(img/APcolor-01.png)"
+              >
+                <div class="bg"></div>
+                <div class="body_card_front">
+                  <h1>2021-2022</h1>
+                  <p>
+                    Argentina Programa - Argentina
+                  </p>
+                </div>
+              </div>
+              <div class="card_back">
+                <div class="body_card_back">
+                  <p>
+                    Programador Web Full Stack junior. #YoProgramo
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!--Conocimientos-->
+      <article class="bck_cards_uno">
+        <div class="circulo_img">
+          <img src="img/conocimiento.png" alt="">
+        </div>
+        <div class="titulos"> <h2>Conocimientos</h2></div>
+        
+           
+      </article>
+      <!--trabajos-->
+      <article class="">
+        <h2>Soy Valeria Saez</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </article>
+      <!--Footer-->
+      <article>
+        <h2>Soy Valeria Saez</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </article>
+    </main>
+    <!--Bootstrap JS-->
+    <script src="libs/bootstrap-5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
