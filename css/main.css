@@ -19,7 +19,7 @@ header{
 width: 100%;
 top: 0;
 left: 0;
-background: #fff;
+background: rgb(236, 25, 25);
 *position: fixed;
 }
 .titulos{
